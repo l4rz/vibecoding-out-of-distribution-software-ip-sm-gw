@@ -1,0 +1,10 @@
+sip:
+  bind: 10.40.0.19
+  port: 5065
+  home_domain: ims.mnc001.mcc001.3gppnetwork.org
+  scscf_uri: sip:scscf1.ims.mnc001.mcc001.3gppnetwork.org
+
+registry:
+  db_path: ./registry.db 
+
+autoroute: true
